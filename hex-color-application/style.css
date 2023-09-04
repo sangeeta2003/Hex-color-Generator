@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items:center;
+    /* height: 100vh; */
+    height: 100vh;
+    font-size: 20px;
+    background-color: black;
+
+}
+.main{
+    height: 400px;
+    width: 250px;
+    background-color: coral;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+}
+#colorpicker{
+    background-color: none;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 60px;
+    cursor: pointer;
+}
+#box{
+    outline: none;
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 40px;
+    width: 120px;
+    padding: 0 10px;
+}
+h1{
+    color: white;
+}
